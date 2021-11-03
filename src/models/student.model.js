@@ -7,4 +7,4 @@ const StudentSchema = new mongoose.Schema({
     adress: String
 });
 
-export default mongoose.model('Student', StudentSchema);
+export default mongoose.model('student', StudentSchema);
